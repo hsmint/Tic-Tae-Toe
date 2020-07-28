@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tic_tae_toe/screens/game.dart';
 import 'package:tic_tae_toe/screens/menu.dart';
 
 void main() => runApp(TicTacToe());
@@ -9,8 +10,9 @@ class TicTacToe extends StatelessWidget {
     return MaterialApp(
       initialRoute: '/',
       routes: {
-        '/': (context) => Menu()
-      }
+        '/': (context) => Menu(),
+        '/game': (context) => GamePage(),
+      },
     );
   }
 }
