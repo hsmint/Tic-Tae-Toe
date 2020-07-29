@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:tic_tae_toe/constants.dart';
-import 'package:tic_tae_toe/screens/game.dart';
+import 'package:tic_tae_toe/screens/board.dart';
 
 class Button extends StatelessWidget {
   Button({@required this.text});
@@ -13,7 +13,6 @@ class Button extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        print('pressed');
         Navigator.push(context, MaterialPageRoute(builder: (context) => GamePage()));
       },
       child: Container(

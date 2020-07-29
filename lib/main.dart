@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tic_tae_toe/screens/game.dart';
+import 'package:tic_tae_toe/screens/board.dart';
 import 'package:tic_tae_toe/screens/menu.dart';
 
 void main() => runApp(TicTacToe());
